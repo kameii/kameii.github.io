@@ -78,360 +78,15 @@
     background-color: rgba(0,0,0,0.3);
 }
 
-
-
 .number {
-    height: 500px;
-}
-.number .container {
-    height: 100%;
-    margin: 0 auto;
-    padding-top: 104px;
-    text-align: center;
-    width: 1000px;
-}
-.number .container .h1 {
-    color: #666;
-    font-size: 30px;
-}
-.number .container .h6 {
-    color: #999;
-    font-size: 14px;
-    margin-bottom: 64px;
-    margin-top: 40px;
-}
-.number .container .total {
-    display: flex;
-    height: 140px;
-    justify-content: space-between;
-    width: 100%;
-}
-.number .container .total > div {
-    align-items: center;
-    border-radius: 55px;
-    display: flex;
-    height: 110px;
-    justify-content: center;
-    position: relative;
-    width: 250px;
-}
-.number .container .total .h6 {
-    color: #9bc200;
-    margin-bottom: 2px;
-    margin-top: 0;
-}
-.number .container .total .count {
-    color: #666;
-    font-size: 26px;
-}
-.number .container .total .unit {
-    color: #666;
-    font-size: 14px;
-    margin-left: 7px;
-}
-.number .svg {
-    border: 0 none;
-    bottom: 0;
-    left: -11px;
-    position: absolute;
-    right: 0;
-    top: -12px;
-    z-index: 0;
-}
-.number .line {
-    border: 0 none;
-    bottom: 0;
-    left: -11px;
-    position: absolute;
-    right: 0;
-    top: -12px;
-    z-index: 3;
-}
-.number path {
-    fill: none;
-    stroke: #9bc200;
-    stroke-width: 2px;
-}
-.number circle {
-    fill: #9bc200;
-    stroke: #c4dc68;
-    stroke-width: 2px;
-}
-.case {
-    background-color: #f3f3f3;
-    height: 426px;
-    width: 100%;
-}
-.case .container {
-    background-image: url("/new/casebg.png");
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    height: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    padding-top: 72px;
-    text-align: center;
-    width: 1000px;
-    position:relative;
-}
-.case .container .h1 {
-    color: #666;
-    font-size: 30px;
-    height: 40px;
-    line-height: 40px;
-}
-
-.right-app {
-    float: left;
-    height: 314px;
-    position:absolute;
-    margin:0 atuo;
-    left:0;
-    right:0;
-}
-.case .container .right-app .area {
-    display: flex;
-    height: 100%;
-    justify-content: space-between;
-    width: 850px;
-       left:0;
-    right:0;
-    margin:0 auto;
-}
-
-.case .container .right-app .area > div {
-    background-image: url("img/two.png");
-    background-position: center top;
-    background-repeat: no-repeat;
+    background-color: #eee;
     height: 400px;
-    margin-top: 90px;
-    text-align: center;
-    transition: all 0.2s ease 0s;
-    width: 262px;
-}
-.case .container .right-app .area > div.active {
-    margin-top: 70px;
-}
-.case .container .right-app .area > div > div {
-    display: inline-block;
+    margin: 0 auto;
+    padding-top: 150px;
     text-align: center;
     width: 100%;
 }
 
-.case-description {
-    background-color: #f3f3f3;
-    height: 348px;
-    padding: 100px 0 70px;
-    text-align: center;
-    width: 100%;
-}
-.case-description .sub {
-    display: none;
-}
-.case-description .sub.active {
-    display: block;
-}
-.case-description .area {
-    display: none;
-    height: 115px;
-    margin: 0 auto;
-    width: 800px;
-}
-.case-description .area.active {
-    display: block;
-}
-.case-description .area .description, .case-description .area .speak {
-    color: #666;
-    display: block;
-    font-size: 16px;
-    margin-bottom: 15px;
-}
-.case-description .btn-link {
-    background-color: #9bc200;
-    border-radius: 3px;
-    color: white;
-    display: inline-block;
-    font-size: 18px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    text-decoration: none;
-    width: 240px;
-}
-.case-description .btn-link:hover {
-    background-color: rgba(155, 194, 0, 0.8);
-}
-.development {
-    height: 465px;
-    padding: 70px 0 80px;
-    text-align: center;
-    width: 100%;
-}
-.development .container {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 800px;
-}
-
-.development .container > div {
-    padding-top: 65px;
-    width: 322px;
-}
-.development .container .title {
-    color: #666;
-    font-size: 16px;
-}
-.development .container .description {
-    color: #999;
-    letter-spacing: 0.5px;
-    line-height: 24px;
-    margin: 40px 0 0;
-}
-.development .container > div a, .development .deepengine > div a {
-    border: 1px solid #8fb301;
-    border-radius: 3px;
-    color: #8fb301;
-    display: inline-block;
-    height: 44px;
-    line-height: 44px;
-    margin-top: 50px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    width: 150px;
-}
-.development .container > div a:hover, .development .deepengine > div a:hover {
-    background-color: #9bc200;
-    color: white;
-    transition: all 0.2s ease 0s;
-}
-.polymerization {
-    height: 600px;
-    letter-spacing: 0.5px;
-    width: 100%;
-}
-.polymerization .container {
-    height: 100%;
-    position: relative;
-    width: 100%;
-}
-.polymerization .bg {
-    background-image: url("img/py.jpg");
-    background-position: 50% -156px;
-    background-size: cover;
-    height: 100%;
-    position: absolute;
-    transition: all 0.2s ease 0s;
-    width: 100%;
-    z-index: 1;
-}
-.polymerization .bg img{
-    height: 100%;
-    position: absolute;
-    transition: all 0.2s ease 0s;
-    width: 100%;
-    z-index: 1;
-}
-.polymerization .rectangle {
-    background-image: url("img/filter.png");
-    background-position: center center;
-    background-size: cover;
- 
-}
-.polymerization .rectangle img{
-   height: 100%;
-    position: absolute;
-    width: 100%;
-    z-index: 2;
-}
-.polymerization .content {
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    height: 150px;
-    justify-content: space-between;
-    left: 0;
-    margin: 0 auto;
-    position: absolute;
-    right: 0;
-    top: 110px;
-    width: 848px;
-    z-index: 3;
-}
-.polymerization .content .top {
-    color: white;
-    font-size: 30px;
-    text-align: center;
-}
-.polymerization .content .top + div {
-    color: white;
-    display: flex;
-    font-size: 16px;
-    justify-content: space-between;
-}
-.polymerization .content .top + div > div > span {
-    font-size: 24px;
-}
-.manager {
-    height: 524px;
-    padding-top: 80px;
-    width: 100%;
-}
-.manager .container {
-    height: 100%;
-    margin: 0 auto;
-    text-align: center;
-    width: 910px;
-}
-.manager .container .h1 {
-    color: #9bc200;
-    font-size: 30px;
-    height: 40px;
-    line-height: 40px;
-}
-.manager .container .h6 {
-    color: #999;
-    font-size: 14px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-.icons {
-    color: #434343;
-    display: flex;
-    font-size: 14px;
-    justify-content: space-between;
-    list-style: outside none none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-.i_database, .i_push, .i_repair, .i_update, .i_bigdata {
-    background-position: center center;
-    background-repeat: no-repeat;
-    display: block;
-    height: 72px;
-    margin-bottom: 32px;
-    width: 96px;
-}
-.i_update {
-    width: 98px;
-}
-.i_database {
-    background-image: url("/new/manager_01.png");
-}
-.i_push {
-    background-image: url("/new/manager_02.png");
-}
-.i_repair {
-    background-image: url("/new/manager_03.png");
-}
-.i_update {
-    background-image: url("/new/manager_04.png");
-}
-.i_bigdata {
-    background-image: url("/new/manager_05.png");
-}
 .video {
     position: relative;
     width: 100%;
@@ -469,13 +124,7 @@
     top: 0;
     z-index: 3;
 }
-.video.active .container .t5 {
-    opacity: 1;
-}
-.video.active .container .t1 {
-    margin-top: 0;
-    opacity: 1;
-}
+
 
 
 .video .container .t5 {
@@ -493,6 +142,13 @@
     opacity: 0;
     transition: all 1.3s ease 1s;
 }
+.video.active .container .t5 {
+    opacity: 1;
+}
+.video.active .container .t1 {
+    margin-top: 0;
+    opacity: 1;
+}
 .video .container .play {
     cursor: pointer;
     height: 70px;
@@ -505,6 +161,7 @@
     width: 70px;
     opacity:0
 }
+
 .video.active .play img {
 
     opacity: 1;

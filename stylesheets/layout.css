@@ -298,118 +298,7 @@ header.dark .authenticated:hover .profile {
     background-color: rgba(255, 255, 255, 0.02);
     transition: all 0.2s ease 0s;
 }
-footer {
-    background-color: #000;
-    min-height: 284px;
-    text-align: left;
 
-}
-footer .zengjia{
-display: -webkit-box;
-display:-moz-box;
-
-
--webkit-box-pack:center;
-	-webkit-box-align:center;
-    	-moz-box-pack:center;
-	-moz-box-align:center;
-}
-footer dl {
-
-    font-size: 14px;
-    margin-top: 40px;
-    margin-right:20px;
-    text-align: center;
-
-    width: 16%;
-
-}
-
-footer dt {
-    color: #fff;
-    font-weight: normal;
-    margin: 5px 0;
-    
-}
-footer dd {
-    margin: 5px 0;
-}
-footer dd a {
-    color: #666;
-    text-decoration: none;
-}
-footer section {
-    margin: 0 auto;
-    width: 900px;
-      
-}
-
-
-
-footer .copyright {
-    border-top: 1px solid #222;
-    clear: both;
-    color: #999;
-    font-size: 14px;
-    height: 72px;
-    line-height: 71px;
-    margin-top: 40px;
-    text-align: center;
-    width: 100%;
-}
-footer .copyright label {
-    margin-bottom: 0;
-}
-footer .copyright label a {
-    color: #999;
-    text-decoration: none;
-}
-footer .link-exchange-box {
-    clear: both;
-}
-footer .link-exchange {
-    font-size: 12px;
-    margin: 0 auto;
-}
-footer .link-exchange h5 {
-    color: #999;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: bolder;
-    margin: 0;
-}
-footer .link-exchange h5 + span {
-    border-color: transparent transparent transparent #656565;
-    border-style: solid;
-    border-width: 7px;
-    display: inline-block;
-    line-height: 22px;
-    margin-left: 5px;
-    vertical-align: text-top;
-}
-footer .link-exchange h5 + span.active {
-    border-color: #656565 transparent transparent;
-    margin-top: 4px;
-}
-footer .link-exchange p {
-    display: none;
-    transition: all 0.2s ease 0s;
-}
-footer .link-exchange a {
-    border-left: 1px solid #666;
-    color: #666;
-    display: inline-block;
-    line-height: 14px;
-    margin-bottom: 8px;
-    margin-top: 8px;
-    text-decoration: none;
-    text-indent: 4px;
-}
-footer .link-exchange a:first-child {
-    border-left: medium none;
-    margin-left: 0;
-    text-indent: 0;
-}
 header .err-top {
     display: none;
     left: 0;
@@ -537,4 +426,17 @@ header .err-top .err-content {
 .item-notice-in::after {
     right: 14px;
     top: 10px;
+}
+
+
+footer {
+    background-color: #000;
+    margin: 0 auto;
+    border-top: 1px solid #222;
+    clear: both;
+    color: #999;
+    font-size: 14px;
+    height: 72px;
+    line-height: 71px;
+    text-align: center;
 }

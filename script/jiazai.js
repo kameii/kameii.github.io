@@ -1,18 +1,10 @@
  var $header = $('header');
 
   var s_banner = $('section.banner').offset().top;
-    
-  var s_polymerization = $('section.polymerization').offset().top;
   var s_video = $('section.video').offset().top;
-  //var s_number = $("section.number").offset().top;
-  //var s_case = $('section.case').offset().top;
 
   var s_banner_end = s_banner + $('section.banner').height();
-  var s_polymerization_end = s_polymerization + $('section.polymerization').height();
   var s_video_end = s_video + $('section.video').height();
-  //var s_number_end = s_number + $("section.number").height();
-  //var s_case_end = s_case + $("section.case").height();
-
 
   var height = document.documentElement.clientHeight;
   var TOP = 330;
@@ -20,6 +12,7 @@
   var bgvideo;
   $(window).on('scroll', scroll);
 
+//设置导航栏颜色
   function scroll(){
     var st = $(document).scrollTop();
     if(st<5){
@@ -31,21 +24,6 @@
       $header.hasClass("dark")&&$header.removeClass("dark");
       (!$header.hasClass("light"))&&$header.addClass('light');
     }
-
-    /*if(s_number_end>st&&s_number+TOP-st<height){
-      animate_number_interval();
-    }else if(svg_interval){
-      clearInterval(svg_interval);
-      svg_interval=undefined;
-    }
-
-    if(s_case_end>st&&s_case+TOP-st<height){
-      animate_case();
-    }else if(case_interval){
-      clearInterval(case_interval);
-      case_interval=undefined;
-    }
-    */
 
     if(s_video_end>st&&s_video+TOP-st<height){
       if(!bgvideo){        
@@ -59,20 +37,12 @@
       bgvideo.pause();
       bgvideo=undefined;
     }
-
-
-    if((s_polymerization_end-TOP)>st&&st>(s_polymerization-TOP)){
-      var p = (st-s_polymerization+TOP)/3+150;
-      $(".polymerization .bg").css("background-position",("center -"+ p +"px"));
-    }
-
   }
 
     function animate_video(){
     bgvideo.play();
   }
   
-
 
   var myvideo;
   $("#playVideo").on("click",function(event){
